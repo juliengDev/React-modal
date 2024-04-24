@@ -30,14 +30,15 @@ import { Modal } from "juliengilbertdev-modal";
 
 ## Props
 
-The `Modal` component accepts the following props:
+- `isOpen` (`boolean`): Controls whether the modal is open or closed.
+- `setIsOpen` (`function`): Function to toggle the `isOpen` state.
+- `mainTitle` (`string`): Title text displayed in the modal header.
+- `text` (`string`): Text content displayed in the modal body.
+- `icon` (`string`, optional): Optional icon displayed alongside the `mainTitle`.
+- `mainStyle` (`object`, optional): CSS styles for the main title.
+- `textStyle` (`object`, optional): CSS styles for the text content.
 
-- `isOpen` (`boolean`, required): Controls whether the modal is open or closed.
-- `setIsOpen` (`React.Dispatch<React.SetStateAction<boolean>>`, required): A function to toggle the `isOpen` state.
-- `icon` (`string`, optional): Icon to display alongside the main title.
-- `titleStyle` (`string`, optional): Additional CSS class to apply to the modal title for custom styling.
-- `mainTitle` (`string`, optional): The main title text displayed in the modal.
-- `text` (`string`, optional): Additional text content displayed in the modal.
+These props allow you to customize the appearance and behavior of the `Modal` component within your React application.
 
 ## Usage
 

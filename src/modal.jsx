@@ -5,9 +5,10 @@ const Modal = ({
   isOpen,
   setIsOpen,
   icon = "🎉",
-  titleStyle = "title-style",
   mainTitle = "myTitle1",
   text = "myTitle2",
+  mainStyle = {},
+  textStyle = {},
 }) => {
   if (!isOpen) {
     return null;
@@ -25,11 +26,11 @@ const Modal = ({
           &times;
         </button>
         <span className="material-symbols-outlined">check_circle</span>
-        <div className={`title-style ${titleStyle}`} id="modal-title">
-          <p>
+        <div className="title-style" id="modal-title">
+          <p style={mainStyle}>
             {mainTitle} {icon}
           </p>
-          <p>{text}</p>
+          <p style={textStyle}>{text}</p>
         </div>
       </div>
     </div>
