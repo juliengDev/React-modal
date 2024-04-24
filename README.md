@@ -68,4 +68,5 @@ function App() {
 
 export default App;
 ```
-# React-modal
+
+Have fun 🙂
