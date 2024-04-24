@@ -45,12 +45,11 @@ These props allow you to customize the appearance and behavior of the `Modal` co
 Here's how you can use the `Modal` component in your React application:
 
 ```jsx
-import React, { useState } from "react";
-import Modal from "juliengilbertdev-modal";
-import "juliengilbertdev-modal/dist/modal.css";
+import React from "react";
+import { Modal } from "juliengilbertdev-modal";
 
-function App() {
-  const [isOpen, setIsOpen] = useState(false);
+const App = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
 
   return (
     <div>
@@ -58,14 +57,15 @@ function App() {
       <Modal
         isOpen={isOpen}
         setIsOpen={setIsOpen}
+        mainTitle="My Modal Title"
+        text="This is the content of the modal."
         icon="🎉"
-        titleStyle="custom-title"
-        mainTitle="Welcome!"
-        text="This is a custom modal component."
+        mainStyle={{ color: "blue", fontSize: "24px" }}
+        textStyle={{ fontWeight: "bold" }}
       />
     </div>
   );
-}
+};
 
 export default App;
 ```
