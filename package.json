@@ -1,6 +1,6 @@
 {
   "name": "juliengilbertdev-modal",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "A simple component to display a customisable modal",
   "main": "dist/index.js",
   "module": "dist/index.js",
