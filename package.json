@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "yarn clean && tsc && cp package.json README.md ./dist"
+    "build": "yarn clean && babel src --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
   },
   "keywords": [
     "react",
-    "typescript",
     "modal"
   ],
   "author": {
@@ -29,10 +28,10 @@
   },
   "homepage": "https://github.com/juliengDev/React-modal#readme",
   "devDependencies": {
-    "@babel/cli": "^7.22.15",
-    "@babel/core": "^7.22.20",
-    "@babel/preset-env": "^7.22.20",
-    "@babel/preset-react": "^7.22.15",
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
     "cross-env": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
