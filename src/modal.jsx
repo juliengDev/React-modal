@@ -1,16 +1,7 @@
-import * as React from "react";
+import React from "react";
 import "./modal.css";
 
-interface ModalProps {
-  isOpen: boolean;
-  setIsOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  icon?: string;
-  titleStyle?: string;
-  mainTitle?: string;
-  text?: string;
-}
-
-const Modal: React.FC<ModalProps> = ({
+const Modal = ({
   isOpen,
   setIsOpen,
   icon = "🎉",
