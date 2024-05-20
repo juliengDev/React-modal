@@ -25,7 +25,7 @@ const Modal = ({
         <button className="modal-btn" onClick={() => setIsOpen(false)}>
           &times;
         </button>
-        <span className="material-symbols-outlined">check_circle</span>
+        <span className="material-symbols-outlined">Task_Alt</span>
         <div className="title-style" id="modal-title">
           <p style={mainStyle}>
             {mainTitle} {icon}

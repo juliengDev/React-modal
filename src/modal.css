@@ -38,23 +38,14 @@
   transition: all 0.2s;
 }
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 40;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
   color: #2f9e44;
   font-size: 3rem;
   position: relative;
   display: inline-block;
   padding: 3px;
 }
-.material-symbols-outlined::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 8px solid #b2f2bb;
-  border-radius: 50%;
-}
+
 .title-style {
   color: inherit;
 }
