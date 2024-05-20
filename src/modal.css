@@ -38,8 +38,6 @@
   transition: all 0.2s;
 }
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
-  color: #2f9e44;
   font-size: 3rem;
   position: relative;
   display: inline-block;
