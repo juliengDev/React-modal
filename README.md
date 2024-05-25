@@ -16,6 +16,12 @@ npm install juliengilbertdev-modal
 import { Modal } from "juliengilbertdev-modal";
 ```
 
+## Pré-requis
+
+### Node
+
+- Node version : v22.2.0
+
 ## Props
 
 - `isOpen` (`boolean`): Controls whether the modal is open or closed.
