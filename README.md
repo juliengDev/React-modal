@@ -16,7 +16,7 @@ npm install juliengilbertdev-modal
 import { Modal } from "juliengilbertdev-modal";
 ```
 
-## Pré-requis
+## Requierements
 
 ### Node
 
