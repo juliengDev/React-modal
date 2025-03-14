@@ -18,7 +18,7 @@ import { Modal } from "juliengilbertdev-modal";
 
 ## Npm package
 
-(link here)[https://www.npmjs.com/package/juliengilbertdev-modal]
+[Link](https://www.npmjs.com/package/juliengilbertdev-modal)
 
 ## Requierements
 
