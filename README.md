@@ -16,6 +16,10 @@ npm install juliengilbertdev-modal
 import { Modal } from "juliengilbertdev-modal";
 ```
 
+## Npm package
+
+(link here)[https://www.npmjs.com/package/juliengilbertdev-modal]
+
 ## Requierements
 
 ### Node
